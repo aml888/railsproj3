@@ -1,0 +1,24 @@
+
+
+<p>
+  <strong>News tip:</strong>
+  <%= @tip.news_tip %>
+</p>
+
+<p>
+  <strong>Date:</strong>
+  <%= @tip.date %>
+</p>
+
+<p>
+  <strong>Source:</strong>
+  <%= @tip.source %>
+</p>
+
+<p>
+  <strong>Status:</strong>
+  <%= @tip.status %>
+</p>
+
+<%= link_to 'Edit', edit_tip_path(@tip) %> |
+<%= link_to 'Back', tips_path %>
